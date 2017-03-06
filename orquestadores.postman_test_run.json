@@ -1,0 +1,304 @@
+{
+	"id": "a3ce4d16-fbdc-a210-bf60-9d075243fc38",
+	"name": "OS_relation",
+	"allTests": [],
+	"timestamp": 1485528989522,
+	"collection_id": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+	"folder_id": "25d20738-f90b-d08b-65ee-f882cd570b7a",
+	"target_type": "folder",
+	"environment_id": "faba8bd0-8a3d-36df-ecbe-de51e9dd85f3",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+		"name": "orquestadores",
+		"description": "",
+		"order": [],
+		"folders": [
+			{
+				"id": "25d20738-f90b-d08b-65ee-f882cd570b7a",
+				"name": "OS_relation",
+				"description": "",
+				"write": true,
+				"order": [
+					"e04d2baf-3d94-79f4-d967-2e0622728526",
+					"637fb883-d0d6-d3d6-f1c1-58ad07c5bf94",
+					"86ba67eb-bd84-4c68-74cd-f0a29aab3eef"
+				],
+				"collection": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+				"owner": "1468404",
+				"collection_id": "e6d59d69-5641-dcc0-1816-353e95931ebb"
+			}
+		],
+		"requests": [
+			{
+				"id": "637fb883-d0d6-d3d6-f1c1-58ad07c5bf94",
+				"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsInJvbGVzIjp7ImludmVzdG9yIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInNlbGxlciI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSJdfX0=\nContent-Type: application/json\n",
+				"url": "localhost:4200/relation",
+				"pathVariables": {},
+				"preRequestScript": null,
+				"method": "POST",
+				"collectionId": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+				"data": "{\n\"sellerId\": \"3d227160-cc56-11e6-a0fb-b127a796a3db\",\n\"payerId\": \"193562e0-dcd6-11e6-9f7b-4db91616ce70\",\n  \"acceptorContactName\": \"contact\",\n  \"acceptorContactEmail\": \"contact@email.com\"\n}",
+				"dataMode": "raw",
+				"name": "localhost:4200/relation",
+				"description": "",
+				"descriptionFormat": "html",
+				"time": 1485491055453,
+				"version": 2,
+				"responses": [],
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"folder": "25d20738-f90b-d08b-65ee-f882cd570b7a"
+			},
+			{
+				"id": "86ba67eb-bd84-4c68-74cd-f0a29aab3eef",
+				"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsInJvbGVzIjp7ImludmVzdG9yIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInNlbGxlciI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSJdfX0=\n",
+				"url": "localhost:4200/entities",
+				"pathVariables": {},
+				"preRequestScript": null,
+				"method": "GET",
+				"collectionId": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+				"data": null,
+				"dataMode": "params",
+				"name": "localhost:4200/entities",
+				"description": "",
+				"descriptionFormat": "html",
+				"time": 1485491076147,
+				"version": 2,
+				"responses": [],
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"folder": "25d20738-f90b-d08b-65ee-f882cd570b7a"
+			},
+			{
+				"id": "e04d2baf-3d94-79f4-d967-2e0622728526",
+				"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsInJvbGVzIjp7ImludmVzdG9yIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInNlbGxlciI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSJdfX0=\nContent-Type: application/json\n",
+				"url": "localhost:4200/payer",
+				"preRequestScript": null,
+				"pathVariables": {},
+				"method": "POST",
+				"data": "{\n  \"sellerId\":\"9c4eb050-9af0-11e6-a8c6-91bfb3ec559d\",\n  \"entity\":{\n      \"typeUser\": 1,\n      \"entityName\": \"New Payer jose OG\"\n  },\n  \"contactInfo\":{\n        \"acceptorContactName\":\"contactName\",\n        \"acceptorContactEmail\":\"contac@tEmail\",\n        \"entityDocument\": 123132333,\n        \"verificationDigit\": 8\n  }\n}",
+				"dataMode": "raw",
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\ntests[\"Response time is less than 200ms\"] = responseTime < 200;\nvar jsonData = JSON.parse(responseBody);\ntests[\"Your test name\"] = jsonData.data.data.sellerId ===\"9c4eb050-9af0-11e6-a8c6-91bfb3ec559d\";\n\n\n\n\n\n\n\n",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1485528954195,
+				"name": "localhost:4200/payer",
+				"description": "",
+				"collectionId": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+				"responses": []
+			}
+		],
+		"timestamp": 1485490866887,
+		"synced": false,
+		"syncedFilename": "",
+		"remote_id": 0,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"owner": "1468404",
+		"subscribed": false,
+		"createdAt": 1485490866887,
+		"updatedAt": 1485491076191,
+		"write": true,
+		"isDeleted": false,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {},
+		"sharedWithTeam": false
+	},
+	"folder": {
+		"id": "25d20738-f90b-d08b-65ee-f882cd570b7a",
+		"name": "OS_relation",
+		"description": "",
+		"write": true,
+		"order": [
+			"e04d2baf-3d94-79f4-d967-2e0622728526",
+			"637fb883-d0d6-d3d6-f1c1-58ad07c5bf94",
+			"86ba67eb-bd84-4c68-74cd-f0a29aab3eef"
+		],
+		"collection": "e6d59d69-5641-dcc0-1816-353e95931ebb",
+		"owner": "1468404",
+		"collection_id": "e6d59d69-5641-dcc0-1816-353e95931ebb"
+	},
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"id": "e04d2baf-3d94-79f4-d967-2e0622728526",
+			"name": "localhost:4200/payer",
+			"url": "localhost:4200/payer",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": false,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1448
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": false,
+					"Your test name": true
+				}
+			],
+			"time": 1448,
+			"totalRequestTime": 1448,
+			"iterationResults": {}
+		},
+		{
+			"id": "637fb883-d0d6-d3d6-f1c1-58ad07c5bf94",
+			"name": "localhost:4200/relation",
+			"url": "localhost:4200/relation",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				914
+			],
+			"allTests": [
+				{}
+			],
+			"time": 914,
+			"totalRequestTime": 914,
+			"iterationResults": {}
+		},
+		{
+			"id": "86ba67eb-bd84-4c68-74cd-f0a29aab3eef",
+			"name": "localhost:4200/entities",
+			"url": "localhost:4200/entities",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1041
+			],
+			"allTests": [
+				{}
+			],
+			"time": 1041,
+			"totalRequestTime": 1041,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 2,
+	"totalFail": 1,
+	"totalTime": 3403,
+	"lifecycle": "done",
+	"willStop": false,
+	"requests": [
+		{
+			"name": "localhost:4200/payer",
+			"id": "e04d2baf-3d94-79f4-d967-2e0622728526",
+			"url": "localhost:4200/payer",
+			"time": 1448,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200",
+				"Response time is less than 200ms",
+				"Your test name"
+			],
+			"gridData": [
+				[
+					true,
+					false,
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": false,
+				"Your test name": true
+			}
+		},
+		{
+			"name": "localhost:4200/relation",
+			"id": "637fb883-d0d6-d3d6-f1c1-58ad07c5bf94",
+			"url": "localhost:4200/relation",
+			"time": 914,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "localhost:4200/entities",
+			"id": "86ba67eb-bd84-4c68-74cd-f0a29aab3eef",
+			"url": "localhost:4200/entities",
+			"time": 1041,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		}
+	],
+	"synced": false
+}
